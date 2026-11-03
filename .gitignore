@@ -1,0 +1,20 @@
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Saídas geradas pelo script (não versionar - são reproduzíveis via main.py)
+outputs/*.png
+outputs/*.txt
+
+# Editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
